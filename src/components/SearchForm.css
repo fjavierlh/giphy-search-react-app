@@ -1,0 +1,37 @@
+.SearchForm {
+    width: 80vw;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.SearchForm input {
+    grid-column: span 2;
+    margin-bottom: .5em;
+    font-size: 1em;
+}
+
+.btn {
+    font-size: .6em;
+    padding: 1em 0;
+    border: none;
+    background-color: rgb(68, 116, 180);
+    font-size: .7em;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: rgb(40, 90, 156);
+
+}
+
+.search-btn {
+    grid-row:2;
+    margin-right: .1em;
+}
+
+.random-btn {
+    grid-row:2;
+    margin-left: .1em;
+}

@@ -1,0 +1,6 @@
+.ListOfGifs {
+    grid-row: 3;
+    grid-column: span 2;
+    max-width: 60vw;
+    margin: 0 auto;
+}
